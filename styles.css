@@ -1,0 +1,4 @@
+.container { width: 400px; margin: 50px auto; }
+button { background-color: #007bff; color: white; border: none; padding: 8px 12px; }
+.todo-item { display: flex; justify-content: space-between; margin: 8px 0; }
+.delete-btn { background-color: #dc3545; }
