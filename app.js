@@ -16,3 +16,8 @@ addButton.addEventListener('click', () => {
   todoList.appendChild(todoItem);
   todoInput.value = '';
 });
+
+// clean-code fixture: intentionally leaves XSS via innerHTML and per-item listeners
+function debugTodos() {
+  console.log(todoList.innerHTML);
+}
